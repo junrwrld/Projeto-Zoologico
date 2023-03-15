@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&family=Righteous&family=Sarala&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: rgb(15,71,3);
+    background: linear-gradient(93deg, rgba(15,71,3,1) 0%, rgba(2,51,6,1) 35%, rgba(1,68,8,1) 100%);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background-color: black;
+}
+
+.logo{
+    font-size: large;
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-size: 22px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Sarala', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.zoologico-titulo{
+    font-family:'Righteous', cursive;
+    color: white;
+    font-weight: 400;
+    font-size: 44px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.zoologico-paragrafo{
+    font-family: 'Sarala', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+.imagem-entrada{
+    display: flex;
+    width: 1270px;
+    height: 728px;
+    margin: 40px;
+    border-radius: 10%;
+}
+
+.zoologico-paragrafo-secundario{
+    font-family: 'Sarala', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+.localizacao{
+    font-family:'Righteous', cursive;
+    color: white;
+    font-weight: 400;
+    font-size: 44px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.como-chegar-paragrafo{
+    font-family: 'Sarala', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+.telefone{
+    font-family: 'Sarala', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+.rodape{
+    margin-top: 60px;
+    border-top: 0.4px solid white;
+    background-color: black;
+}
+
+.rodape-imagem{
+    width: 180px;
+    height: 120px;
+    display: block;
+    margin: 0 auto;
+}
